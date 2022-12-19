@@ -1,0 +1,5 @@
+/* 초기화 */
+*{margin: 0; padding: 0; color: #00335B;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #00335B;}
+img{display: block; border: 0;}

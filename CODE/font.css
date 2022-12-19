@@ -1,0 +1,21 @@
+@font-face{
+    font-family: 'roblack';
+    src: url(font/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: 'robold';
+    src: url(font/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: 'goex';
+    src: url(font/NanumGothic-ExtraBold.ttf);
+}
+@font-face{
+    font-family: 'go';
+    src: url(font/NanumGothic-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'sc';
+    src: url(font/SCDream5.otf);
+}
