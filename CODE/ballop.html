@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BALLOP</title>
+
+    <!-- <link rel="stylesheet" href="./css/pc_02.css" type="text/css"> -->
+    <link rel="stylesheet" href="./css/pc.css" type="text/css">
+    <link rel="stylesheet" href="./css/note.css" type="text/css">
+    <link rel="stylesheet" href="./css/tab.css" type="text/css">
+    <link rel="stylesheet" href="./css/mo.css" type="text/css">
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/index02.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <!-- header -->
+        <header>
+            <div id="in_header">
+                <div id="logo"><a href="#"><img src="../content/top_logo.png" alt="BALLOP 로고"></a></div>
+                <ul id="h_menu_wrap">
+                    <li><a href="#">신상</a></li>
+                    <li><a href="#">1+1</a></li>
+                    <li><a href="#">신발</a></li>
+                    <li><a href="#">의류</a></li>
+                    <li><a href="#">스포츠의류</a></li>
+                    <li><a href="#">워터스포츠</a></li>
+                    <li><a href="#">액세서리</a></li>
+                    <li><a href="#">기획전</a></li>
+                    <li><a href="#">WITH STAR</a></li>
+                    <li><a href="#">쇼핑라이브</a></li>
+                </ul>
+                <ul id="icon_wrap">
+                    <li><img src="../res/icon_g.png" alt="돋보기 아이콘"></li>
+                    <li><a href="#"><img src="../res/icon_p.png" alt="마이페이지 아이콘"></a></li>
+                </ul>
+                <ul id="h_right_menu">                                        
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+
+                <!-- pc버전 아닐때 숨겨진 슬라이드 메뉴바 -->
+                <div id="ham">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div id="hidden_wrap">
+                    <div id="hidden_top">
+                        <div id="hidden_close">
+                            <img src="../res/close.png" alt="x표 닫기버튼">
+                        </div>
+                        <ul id="hidden_log">
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                        </ul>
+                    </div>
+                    
+                    <ul id="hidden_menu">
+                        <li><a href="#">신상</a></li>
+                        <li><a href="#">1+1</a></li>
+                        <li><a href="#">신발</a></li>
+                        <li><a href="#">의류</a></li>
+                        <li><a href="#">스포츠의류</a></li>
+                        <li><a href="#">워터스포츠</a></li>
+                        <li><a href="#">액세서리</a></li>
+                        <li><a href="#">기획전</a></li>
+                        <li><a href="#">WITH STAR</a></li>
+                        <li><a href="#">쇼핑라이브</a></li>
+                    </ul>
+                    <div id="mo_hidden">
+                        <div id="hidden_cs">
+                        <p>
+                            <span>CS CENTER</span><br><br>
+                            1668-3740<br>
+                            delivery@ballop.co.kr<br><br>
+                            AM 10:00 ~ PM 12:00<br>
+                            PM 02:00 ~ PM 05:00<br>
+                            토,일,공휴일 휴무
+                        </p>
+                        </div>
+                        <div id="hidden_bank">
+                            <p>
+                                <span>BANK ACCOUNT</span><br><br>
+                                322-890062-59304<br>
+                                KEB 하나은행<br>
+                                <span id="small_span">예금주 : (주)지티에스글로벌</span>
+                            </p>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+                
+
+            </div>
+        </header>
+
+        <!-- section01 -->
+        <section id="sec01">
+            <div id="mbn_wrap">
+                <a href="#"><img src="../bn/0718_main_slide_pc.jpg" alt="골프컬렉션 배너"></a>
+                <a href="#"><img src="../bn/0923_main_slide_pc.jpg" alt="티바트 배너"></a>
+                <a href="#"><img src="../bn/1109_main_slide_pc_04.jpg" alt="겨울신발 배너"></a>
+                <a href="#"><img src="../bn/1123_main_slide_pc.jpg" alt="트레이닝슈트 배너"></a>
+                <a href="#"><img src="../bn/1014_main_slide_pc_02.jpg" alt="패딩컬렉션 배너"></a>
+                <a href="#"><img src="../bn/1122_main_slide_pc.jpg" alt="창립9주년 배너"></a>
+                
+            </div>
+            <a href="#"><img src="../bn/mo_bn.jpg" alt="패팅컬렉션 배너" id="mo_bn"></a>
+            <ul id="mbn_btn">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div id="sbn_wrap">
+                <div id="in_sbn">
+                    <div class="sbn"><a href="#"><img src="../content/sbn01.jpg" alt="팬츠 컬렉션 배너"></a></div>
+                    <div class="sbn"><a href="#"><img src="../content/sbn02.jpg" alt="와디즈 콜라보 배너"></a></div>
+                    <div class="sbn"><a href="#"><img src="../content/sbn03.jpg" alt="언더레이어 컬랙션 배너"></a></div>
+                    <div class="sbn"><a href="#"><img src="../content/sbn04.jpg" alt="쇼핑라이브 배너"></a></div>
+                </div>                
+            </div>
+        </section>
+
+
+        <!-- section02 -->
+        <section id="sec02">
+            <div class="title">BEST Item</div>
+            <div class="container">
+                <div id="big_img">
+                    <img src="../content/t3.0.jpg" alt="">
+                    <!-- <a href="#"><img src="../content/t3.0.jpg" alt="신발사진"></a>
+                    <a href="#"><img src="../content/t.jpg" alt="신발사진"></a>
+                    <a href="#"><img src="../content/win.jpg" alt="신발사진"></a>
+                    <a href="#"><img src="../content/t2.0.jpg" alt="신발사진"></a>
+                    <a href="#"><img src="../content/san.jpg" alt="신발사진"></a>
+                    <a href="#"><img src="../content/cold.jpg" alt="신발사진"></a>
+                    <a href="#"><img src="../content/shortp.jpg" alt="의류사진"></a>
+                    <a href="#"><img src="../content/longp.jpg" alt="의류사진"></a> -->
+                </div>
+                <div id="best_wrap">
+                    <div class="best">
+                        <img src="../content/t3.0.jpg" alt="신발사진">
+                        <a href="#">
+                            <div class="main">워킹화 티바트3.0 1+1</div>
+                            <div class="price">
+                                <p><span class="red">46%</span> 149,000 <span class="f_price">278,000</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="best">
+                        <img src="../content/t.jpg" alt="신발사진">
+                        <a href="#">
+                            <div class="main">워킹화 티바트 1+1</div>
+                            <div class="price">
+                                <p><span class="red">33%</span> 119,000 <span class="f_price">178,000</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="best">
+                        <img src="../content/win.jpg" alt="신발사진">
+                        <a href="#">
+                            <div class="main">티바트 윈트리 로우 1+1</div>
+                            <div class="price">
+                                <p><span class="red">54%</span> 129,000 <span class="f_price">238,000</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="best">
+                        <img src="../content/t2.0.jpg" alt="신발사진">
+                        <a href="#">
+                            <div class="main">워킹화 티바트2.0 1+1</div>
+                            <div class="price">
+                                <p><span class="red">46%</span> 129,000 <span class="f_price">238,000</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="best">
+                        <img src="../content/san.jpg" alt="신발사진">
+                        <a href="#">
+                            <div class="main">컨비니언트 윈터 샌들 1+1</div>
+                            <div class="price">
+                                <p><span class="red">4653%</span> 55,000 <span class="f_price">118,000</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="best">
+                        <img src="../content/cold.jpg" alt="신발사진">
+                        <a href="#">
+                            <div class="main">패딩슈즈 콜드스냅 1+1</div>
+                            <div class="price">
+                                <p><span class="red">50%</span> 139,000 <span class="f_price">278,000</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="best">
+                        <img src="../content/shortp.jpg" alt="신발사진">
+                        <a href="#">
+                            <div class="main">에센셜 히트 에어볼 숏패딩 자켓</div>
+                            <div class="price">
+                                <p><span class="red">57%</span> 69,000 <span class="f_price">159,000</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="best">
+                        <img src="../content/longp.jpg" alt="신발사진">
+                        <a href="#">
+                            <div class="main">모던 라이프 히트 에어볼 롱패딩 자켓</div>
+                            <div class="price">
+                                <p><span class="red">45%</span> 99,000 <span class="f_price">179,000</span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- section03 -->
+        <section id="sec03">
+            <div class="title">BRAND New</div>
+            <div class="container">
+                <div id="s_wrap">
+                    <div class="arrow" id="prev01"><img src="../res/prev.png" alt="화살표"></div>
+                    <div id="ss_mask">
+                        <div id="s_mask">
+                            <div class="s_new">
+                                <a href="#"><img src="../new/cold.jpg" alt="신발사진"></a>
+                                <div class="main">패딩슈즈 콜드스냅 1+1</div>
+                                <div class="price">
+                                <p><span class="red">50%</span> 139,000 <span class="f_price">278,000</span></p>
+                                </div>
+                            </div>
+                            <div class="s_new">
+                                <a href="#"><img src="../new/atic.jpg" alt="신발사진"></a>
+                                <div class="main">패딩부츠 아틱 1+1</div>
+                                <div class="price">
+                                <p><span class="red">50%</span> 139,000 <span class="f_price">278,000</span></p>
+                                </div>
+                            </div>
+                            <div class="s_new">
+                                <a href="#"><img src="../new/san.jpg" alt="신발사진"></a>
+                                <div class="main">컨비니언트 윈터 샌들 1+1</div>
+                                <div class="price">
+                                <p><span class="red">53%</span> 55,000 <span class="f_price">118,000</span></p>
+                                </div>
+                            </div>
+                            <div class="s_new">
+                                <a href="#"><img src="../new/srun.jpg" alt="신발사진"></a>
+                                <div class="main">워킹화 삭스런 이지핏 1+1</div>
+                                <div class="price">
+                                <p><span class="red">50%</span> 99,000 <span class="f_price">198,000</span></p>
+                                </div>
+                            </div>
+                            <div class="s_new">
+                                <a href="#"><img src="../new/light_run.jpg" alt="신발사진"></a>
+                                <div class="main">워킹화 라이트 런 1+1</div>
+                                <div class="price">
+                                <p><span class="red">44%</span> 99,000 <span class="f_price">178,000</span></p>
+                                </div>
+                            </div>
+                            <div class="s_new">
+                                <a href="#"><img src="../new/c_san.jpg" alt="신발사진"></a>
+                                <div class="main">컨비니언트 샌들 1+1</div>
+                                <div class="price">
+                                <p><span class="red">49%</span> 39,900 <span class="f_price">78,000</span></p>
+                                </div>
+                            </div>
+                            <div class="s_new">
+                                <a href="#"><img src="../new/aqua.jpg" alt="신발사진"></a>
+                                <div class="main">인젝션 아쿠아슈즈 레터링 1+1</div>
+                                <div class="price">
+                                <p><span class="red">45%</span> 29,900 <span class="f_price">54,000</span></p>
+                                </div>
+                            </div>
+                            <div class="s_new">
+                                <a href="#"><img src="../new/3.0neo.jpg" alt="신발사진"></a>
+                                <div class="main">워킹화 티바트3.0 네오 1+1</div>
+                                <div class="price">
+                                <p><span class="red">53%</span> 149,000 <span class="f_price">318,000</span></p>
+                                </div>
+                            </div>
+                            <div class="s_new">
+                                <a href="#"><img src="../new/alba.jpg" alt="신발사진"></a>
+                                <div class="main">알바트로스 골프화 1+1</div>
+                                <div class="price">
+                                <p><span class="red">50%</span> 129,000 <span class="f_price">258,000</span></p>
+                                </div>
+                            </div>
+                            <div class="s_new">
+                                <a href="#"><img src="../new/zi.jpg" alt="신발사진"></a>
+                                <div class="main">여성용 지압슬리퍼 칼로링 1+1</div>
+                                <div class="price">
+                                <p><span class="red">56%</span> 62,000 <span class="f_price">140,000</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="arrow" id="next01"><img src="../res/next.png" alt="화살표"></div>
+                </div>
+                <div id="c_wrap">
+                    <div class="arrow" id="prev02"><img src="../res/prev.png" alt="화살표"></div>
+                    <div id="cc_mask">
+                        <div id="c_mask">
+                            <div class="c_new">
+                                <a href="#"><img src="../new/airshort.jpg" alt="신발사진"></a>
+                                <div class="main">에센셜 히트 에어볼 숏패딩 자켓</div>
+                                <div class="price">
+                                <p><span class="red">57%</span> 69,000 <span class="f_price">159,000</span></p>
+                                </div>
+                            </div>
+                            <div class="c_new">
+                                <a href="#"><img src="../new/airlong.jpg" alt="신발사진"></a>
+                                <div class="main">모던 라이프 히트 에어볼 롱패딩 자켓</div>
+                                <div class="price">
+                                <p><span class="red">45%</span> 99,000 <span class="f_price">179,000</span></p>
+                                </div>
+                            </div>
+                            <div class="c_new">
+                                <a href="#"><img src="../new/downlong.jpg" alt="신발사진"></a>
+                                <div class="main">에센셜 히트 덕다운 롱패딩 자켓</div>
+                                <div class="price">
+                                <p><span class="red">60%</span> 159,000 <span class="f_price">399,000</span></p>
+                                </div>
+                            </div>
+                            <div class="c_new">
+                                <a href="#"><img src="../new/non_long.jpg" alt="신발사진"></a>
+                                <div class="main">무지 좋은 긴팔 티셔츠 1+1</div>
+                                <div class="price">
+                                <p><span class="red">50%</span> 55,000 <span class="f_price">110,000</span></p>
+                                </div>
+                            </div>
+                            <div class="c_new">
+                                <a href="#"><img src="../new/active.jpg" alt="신발사진"></a>
+                                <div class="main">액티브 트레이닝 집업&팬츠 셋업 1+1</div>
+                                <div class="price">
+                                <p><span class="red">69%</span> 99,000 <span class="f_price">318,000</span></p>
+                                </div>
+                            </div>
+                            <div class="c_new">
+                                <a href="#"><img src="../new/mild.jpg" alt="신발사진"></a>
+                                <div class="main">마일드 트레이닝 집업&팬츠 셋업 1+1</div>
+                                <div class="price">
+                                <p><span class="red">69%</span> 99,000 <span class="f_price">318,000</span></p>
+                                </div>
+                            </div>
+                            <div class="c_new">
+                                <a href="#"><img src="../new/four.jpg" alt="신발사진"></a>
+                                <div class="main">UP텐션 포시즌 조거팬츠 1+1</div>
+                                <div class="price">
+                                <p><span class="red">44%</span> 89,000 <span class="f_price">158,000</span></p>
+                                </div>
+                            </div>
+                            <div class="c_new">
+                                <a href="#"><img src="../new/couple.jpg" alt="신발사진"></a>
+                                <div class="main">커플 하드테크 윈드자켓 1+1</div>
+                                <div class="price">
+                                <p><span class="red">37%</span> 199,000 <span class="f_price">318,000</span></p>
+                                </div>
+                            </div>
+                            <div class="c_new">
+                                <a href="#"><img src="../new/men_hard.jpg" alt="신발사진"></a>
+                                <div class="main">하드테크 남성 윈드자켓 1+1</div>
+                                <div class="price">
+                                <p><span class="red">37%</span> 199,000 <span class="f_price">318,000</span></p>
+                                </div>
+                            </div>
+                            <div class="c_new">
+                                <a href="#"><img src="../new/women_hard.jpg" alt="신발사진"></a>
+                                <div class="main">하드테크 하프롱 여성 윈드자켓 1+1</div>
+                                <div class="price">
+                                <p><span class="red">37%</span> 199,000 <span class="f_price">318,000</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="arrow" id="next02"><img src="../res/next.png" alt="화살표"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- section04 -->
+        <section id="sec04">
+            <div class="title">MD's Pick</div>
+            <div class="container clear_fix">
+                <div id="big_md">
+                    <a href="#">
+                        <img src="../MD/FW01.jpg" alt="의류사진">
+                        
+                        <div class="hidden">
+                            <p class="md_main">
+                                밸롭 모던 라이프<br>
+                                히트 에어볼 롱패딩 자켓<br><br>
+                            </p>
+                            <p>
+                                <span class="red">45%</span> 99,000 <span class="f_price">179,000</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../MD/FW02.jpg" alt="의류사진">
+                        <div class="hidden">
+                            <p class="md_main">
+                                밸롭 에센셜<br>
+                                히트 에어볼 숏패딩 자켓<br><br>
+                            </p>
+                            <p>
+                                <span class="red">57%</span> 69,000 <span class="f_price">159,000</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../MD/W01.jpg" alt="의류사진">
+                        <div class="hidden">
+                            <p class="md_main">
+                                밸롭 에센셜<br>
+                                히트 덕다운 롱패딩 자켓<br><br>
+                            </p>
+                            <p>
+                                <span class="red">60%</span> 159,000 <span class="f_price">399,000</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../MD/W02.jpg" alt="의류사진">
+                        <div class="hidden">
+                            <p class="md_main">
+                                밸롭 마일드<br>
+                                트레이닝 집업&팬츠 셋업<br><br>
+                            </p>
+                            <p>
+                                <span class="red">63%</span> 659,000 <span class="f_price">159,000</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../MD/M01r.jpg" alt="의류사진">
+                        <div class="hidden">
+                            <p class="md_main">
+                                밸롭 하드테크<br>
+                                남성 윈드자켓 1+1<br><br>
+                            </p>
+                            <p>
+                                <span class="red">37%</span> 199,000 <span class="f_price">318,000</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../MD/M02.jpg" alt="의류사진">
+                        <div class="hidden">
+                            <p class="md_main">
+                                밸롭 UP텐션<br>
+                                포시즌 조거팬츠 1+1<br><br>
+                            </p>
+                            <p>
+                                <span class="red">44%</span> 89,000 <span class="f_price">158,000</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../MD/acc01.jpg" alt="신발깔창사진">
+                        <div class="hidden">
+                            <p class="md_main">
+                                밸롭 내/외전 밸런스 인솔<br><br>
+                            </p>
+                            <p>
+                                <span class="red">35%</span> 18,900 <span class="f_price">29,000</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="../MD/acc02.jpg" alt="양말사진">
+                        <div class="hidden">
+                            <p class="md_main">
+                                밸롭 데일리 미들삭스 6팩<br><br>
+                            </p>
+                            <p>
+                                <span class="red">40%</span> 14,900 <span class="f_price">25,000</span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="md_wrap" class="clear_fix">
+                    <div class="md">
+                        <div class="main">F/W</div>
+                        <img src="../MD/FW01.jpg" alt="의류사진">
+                        <img src="../MD/FW02.jpg" alt="의류사진">
+                    </div>
+                    <div class="md">
+                        <div class="main">여성</div>
+                        <img src="../MD/W01.jpg" alt="의류사진">
+                        <img src="../MD/W02.jpg" alt="의류사진">
+                    </div>
+                    <div class="md">
+                        <div class="main">남성</div>
+                        <img src="../MD/M01r.jpg" alt="의류사진">
+                        <img src="../MD/M02.jpg" alt="의류사진">
+                    </div>
+                    <div class="md">
+                        <div class="main">ACC</div>
+                        <img src="../MD/acc01.jpg" alt="의류사진">
+                        <img src="../MD/acc02.jpg" alt="의류사진">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- section05 -->
+        <section id="sec05">
+            <div class="container">
+                <img src="../cel/ban.jpg" alt="셀럽협찬 배너" id="cel_img">
+                <div id="cel_mask">
+                    <div id="cel_wrap" class="clear_fix">
+                        <div class="cel">
+                            <img src="../cel/ATBO.jpg" alt="협찬사진">
+                            <div class="sub">[ATBO 정승환]웨이브 베이지 착용</div>
+                        </div>
+                        <div class="cel">
+                            <img src="../cel/mkh.jpg" alt="협찬사진">
+                            <div class="sub">[민경훈]티바트 3.0네오 옐로우 착용</div>
+                        </div>
+                        <div class="cel">
+                            <img src="../cel/sye.jpg" alt="협찬사진">
+                            <div class="sub">[배우 신예은]조거윙 화이트 착용</div>
+                        </div>
+                        <div class="cel">
+                            <img src="../cel/esj.jpg" alt="협찬사진">
+                            <div class="sub">[비투비 육성재]티바트3.0 화이트 착용</div>
+                        </div>
+                        <div class="cel">
+                            <img src="../cel/ljy.jpg" alt="협찬사진">
+                            <div class="sub">[배우 이준영]웨이브 베이지 착용</div>
+                        </div>
+                        <div class="cel">
+                            <img src="../cel/ysc.jpg" alt="협찬사진">
+                            <div class="sub">[양세찬]아쿠아슈즈 블럭 블랙 착용</div>
+                        </div>
+                        <div class="cel">
+                            <img src="../cel/nct.jpg" alt="협찬사진">
+                            <div class="sub">[NCT DREAM] 조거윙 착용</div>
+                        </div>
+                        <div class="cel">
+                            <img src="../cel/hws.jpg" alt="협찬사진">
+                            <div class="sub">[배우 현우석]봄버에어 블랙 착용</div>
+                        </div>
+                        <div class="cel">
+                            <img src="../cel/khc.jpg" alt="협찬사진">
+                            <div class="sub">[김희철]웨이브 화이트 착용</div>
+                        </div>
+                        <div class="cel">
+                            <img src="../cel/kjm.jpg" alt="협찬사진">
+                            <div class="sub">[김종민] 웨이브 블랙 착용</div>
+                        </div>
+                        <div class="cel">
+                            <img src="../cel/DKZ.jpg" alt="협찬사진">
+                            <div class="sub">[DKZ]아쿠아슈즈 블럭&레터링 착용</div>
+                        </div>
+                        <div class="cel">
+                            <img src="../cel/psw.jpg" alt="협찬사진">
+                            <div class="sub">[배우 박성웅] 웨이브 화이트 착용</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="fake_btn"></div>
+            </div>
+        </section>
+
+        <div id="bottom_gd">
+            <!-- section06 -->
+            <section id="sec06">
+                <div class="title">LOOKBOOK</div>
+                <div class="container clear_fix">
+                    <div class="look">
+                        <a href="#"><img src="../lookbook/11.jpg" alt="화보사진"></a>                        
+                    </div>
+                    <div class="look">
+                        <a href="#"><img src="../lookbook/12.jpg" alt="화보사진"></a>
+                    </div>
+                    <div class="look">
+                        <a href="#"><img src="../lookbook/13.jpg" alt="화보사진"></a>
+                    </div>
+                    <div class="look">
+                        <a href="#"><img src="../lookbook/14.jpg" alt="화보사진"></a>
+                    </div>
+                    <div class="look">
+                        <a href="#"><img src="../lookbook/15.jpg" alt="화보사진"></a>
+                    </div>
+                    <div class="look">
+                        <a href="#"><img src="../lookbook/16.jpg" alt="화보사진"></a>
+                    </div>
+                    <div class="look">
+                        <a href="#"><img src="../lookbook/17.jpg" alt="화보사진"></a>
+                    </div>
+                    <div class="look">
+                        <a href="#"><img src="../lookbook/18.jpg" alt="화보사진"></a>
+                    </div>
+                    <div class="look">
+                        <a href="#"><img src="../lookbook/19.jpg" alt="화보사진"></a>
+                    </div>
+                    <div class="look">
+                        <a href="#"><img src="../lookbook/20.jpg" alt="화보사진"></a>
+                    </div>
+                </div>
+            </section>
+            <!-- footer -->
+            <footer>
+                <div id="in_footer" class="clear_fix">
+                    <div id="l_footer">
+                        <div id="f_logo"><a href="#"><img src="../content/ft_logo.png" alt="BALLOP 로고"></a></div>
+                        <div id="sns_wrap">
+                            <a href="#" target="_blank"><img src="../res/ytb.png" alt="유튜브 아이콘"></a>
+                            <a href="#" target="_blank"><img src="../res/blog.png" alt="블로그 아이콘"></a>
+                            <a href="#" target="_blank"><img src="../res/face.png" alt="페이스북 아이콘"></a>
+                            <a href="#" target="_blank"><img src="../res/instar.png" alt="인스타 아이콘"></a>
+                        </div>
+                        <div id="copy">
+                            <p>
+                                (주) 지티에스글로벌 | 대표이사: 최선미<br>
+                                주소 : 13510 경기도 성남시 분당구 판교로 744 (야탑동) 분당테크노파크 C동 508호<br>
+                                통신판매업신고 : 2014-경기성남-1676 | 사업자등록번호 : 128-87-01934<br>
+                                개인정보취급책임자 : 손경호 | 이메일 : delivery@ballop.co.kr<br>
+                                copyright.밸롭몰. all rights reserved.                             
+                            </p>
+                            <ul id="a_wrap">
+                                <li><a href="#">개인정보처리방침</a></li>
+                                <li><a href="#">이용약관</a></li>
+                                <li><a href="#">이용안내</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="r_footer">
+                        <ul id="foot_menu">
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">매장안내</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                        <div id="cs_wrap">
+                            <p>
+                                <span>CS CENTER</span><br><br>
+                                1668-3740<br>
+                                delivery@ballop.co.kr<br><br>
+                                AM 10:00 ~ PM 12:00<br>
+                                PM 02:00 ~ 05:00<br>
+                                토,일,공휴일 휴무
+                            </p>
+                        </div>
+                        <div id="bank_wrap">
+                            <p>
+                                <span>BANK ACCOUNT</span><br><br>
+                                322-890062-59304<br>
+                                KEB 하나은행<br>
+                                예금주 : (주)지티에스글로벌
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div id="mo_footer">
+                <ul id="mo_a_wrap" class="clear_fix">
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">이용안내</a></li>
+                </ul>
+                <div id="mf_logo"><a href="#"><img src="../content/ft_logo.png" alt="BALLOP 로고"></a></div>
+                <div id="m_sns">
+                    <a href="#" target="_blank"><img src="../res/ytb.png" alt="유튜브 아이콘"></a>
+                    <a href="#" target="_blank"><img src="../res/blog.png" alt="블로그 아이콘"></a>
+                    <a href="#" target="_blank"><img src="../res/face.png" alt="페이스북 아이콘"></a>
+                    <a href="#" target="_blank"><img src="../res/instar.png" alt="인스타 아이콘"></a>
+                </div>
+                <div id="mo_copy">
+                    <p>
+                        (주) 지티에스글로벌 | 대표이사: 최선미<br>
+                        주소 : 13510 경기도 성남시 분당구 판교로 744 (야탑동) 분당테크노파크 C동 508호<br>
+                        통신판매업신고 : 2014-경기성남-1676 | 사업자등록번호 : 128-87-01934<br>
+                        개인정보취급책임자 : 손경호 | 이메일 : delivery@ballop.co.kr<br>
+                        copyright.밸롭몰. all rights reserved.                             
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+        
+        
+        <div id="top_btn"><p>TOP</p></div>
+
+    </div>
+    
+</body>
+</html>
