@@ -23,7 +23,7 @@ $('#menu_wrap li:nth-child(3)').click(function(){
 $('#menu_wrap li:nth-child(4)').click(function(){
 
     $('html,body').animate({
-        scrollTop: 3160,
+        scrollTop: 2600,
     },500);
 });
 
@@ -52,6 +52,41 @@ $('#right_art img').click(function(){
     $(this).clone().appendTo('#bottom_big');
 });
 
+
+
+// banner
+
+$('.banner').click(function(){
+    $('#hidden_b').css({
+        display: 'block',
+    });
+});
+
+$('#close02').click(function(){
+    $('#hidden_b').css({
+        display: 'none',
+    });
+});
+
+
+
+i=3;
+
+$('#hidden_b #ban_con').click(function(){
+
+    i--;
+    if(i==0){
+        $('.ban').fadeIn(1000);
+        i=3;
+    }else{
+        $('.ban').eq(i).fadeOut(1000);
+    }
+
+});
+
+setInterval(function(){
+    $('#hidden_b #ban_con').trigger('click');
+},3000);
 
 
 
